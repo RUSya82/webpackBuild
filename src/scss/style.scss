@@ -1,0 +1,24 @@
+@font-face {
+  font-family: Bebas;
+  src: url("../fonts/BebasRegular.woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Bebas-bold';
+  src: url("../fonts/BebasBold.woff");
+  font-weight: 600;
+}
+h1{
+  font-family: 'Bebas-bold',sans-serif;
+}
+.container {
+  font-family: Bebas, sans-serif;
+  max-width: 1170px;
+  margin: 0 auto;
+  #click {
+    padding: 10px 30px;
+    font-size: 25px;
+    background-color: burlywood;
+    font-family: inherit;
+  }
+}
